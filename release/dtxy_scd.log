@@ -1,0 +1,52 @@
+﻿生成启动时间为 2017/7/19 9:21:49。
+     1>项目“D:\VsProjects\网分点表\GOOSE网分采集点文件生成工具\dtxy_scd.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“release\dtxy_scd.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“release\dtxy_scd.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\VS2010\VC\bin\CL.exe /c /IC:\Qt\4.8.6\include\QtCore /IC:\Qt\4.8.6\include\QtXml /IC:\Qt\4.8.6\include /IC:\Qt\4.8.6\include\ActiveQt /Irelease /Ic:\Qt\Qt_4.7.3_VS2010\mkspecs\default /Zi /nologo /W3 /WX- /O2 /Oy- /D QT_NO_DEBUG /D NDEBUG /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_NO_DEBUG /D QT_XML_LIB /D QT_CORE_LIB /D QT_HAVE_MMX /D QT_HAVE_3DNOW /D QT_HAVE_SSE /D QT_HAVE_MMXEXT /D QT_HAVE_SSE2 /D QT_THREAD_SUPPORT /D NDEBUG /Gm- /EHsc /MD /GS- /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"release\\" /Fd".\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp scd.cpp scd_Communication.cpp scd_comm.cpp scd_datatypetemplates.cpp scd_ied.cpp scd_interface.cpp -Zm200 -w34100 -w34189 
+         main.cpp
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/global/qconfig.h(41): warning C4005: “QT_LARGEFILE_SUPPORT”: 宏重定义
+                 命令行参数: 参见前面的“QT_LARGEFILE_SUPPORT”定义
+     1>main.cpp(44): warning C4018: “<”: 有符号/无符号不匹配
+     1>main.cpp(21): warning C4189: “s”: 局部变量已初始化但不引用
+         scd.cpp
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/global/qconfig.h(41): warning C4005: “QT_LARGEFILE_SUPPORT”: 宏重定义
+                 命令行参数: 参见前面的“QT_LARGEFILE_SUPPORT”定义
+         scd_Communication.cpp
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/global/qconfig.h(41): warning C4005: “QT_LARGEFILE_SUPPORT”: 宏重定义
+                 命令行参数: 参见前面的“QT_LARGEFILE_SUPPORT”定义
+         scd_comm.cpp
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/global/qconfig.h(41): warning C4005: “QT_LARGEFILE_SUPPORT”: 宏重定义
+                 命令行参数: 参见前面的“QT_LARGEFILE_SUPPORT”定义
+         scd_datatypetemplates.cpp
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/global/qconfig.h(41): warning C4005: “QT_LARGEFILE_SUPPORT”: 宏重定义
+                 命令行参数: 参见前面的“QT_LARGEFILE_SUPPORT”定义
+         scd_ied.cpp
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/global/qconfig.h(41): warning C4005: “QT_LARGEFILE_SUPPORT”: 宏重定义
+                 命令行参数: 参见前面的“QT_LARGEFILE_SUPPORT”定义
+     1>scd_ied.cpp(1308): warning C4102: “ERROR”: 未引用的标签
+         scd_interface.cpp
+     1>c:\qt\4.8.6\include\qtcore\../../src/corelib/global/qconfig.h(41): warning C4005: “QT_LARGEFILE_SUPPORT”: 宏重定义
+                 命令行参数: 参见前面的“QT_LARGEFILE_SUPPORT”定义
+         正在生成代码...
+       Link:
+         d:\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"release\dtxy_scd.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Qt\4.8.6\lib QtXml4.lib QtCore4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"release\dtxy_scd.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:\VsProjects\网分点表\GOOSE网分采集点文件生成工具\release\dtxy_scd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 release\main.obj
+         release\scd.obj
+         release\scd_Communication.obj
+         release\scd_comm.obj
+         release\scd_datatypetemplates.obj
+         release\scd_ied.obj
+         release\scd_interface.obj
+         dtxy_scd.vcxproj -> D:\VsProjects\网分点表\GOOSE网分采集点文件生成工具\release\dtxy_scd.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"release\dtxy_scd.exe;#1" /manifest release\dtxy_scd.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“release\dtxy_scd.unsuccessfulbuild”。
+         正在对“release\dtxy_scd.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\VsProjects\网分点表\GOOSE网分采集点文件生成工具\dtxy_scd.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.98
